@@ -1,0 +1,10 @@
+name: crop-simulation
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+
+# Local modules (Init.py and Dynamic_ECs.py)  included in project directory.
