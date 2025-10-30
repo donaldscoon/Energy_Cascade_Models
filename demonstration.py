@@ -9,17 +9,17 @@ input_file = os.path.join(base_dir, 'input_file.csv')
 results_dir = os.path.join(base_dir, 'EC_results')
 
 # Runs a demonstration of the Cavazzoni 2004 et. al Modified Energy Cascade
-CAV(input_file=f'{dir}/input_file.csv', TCB=10, t_A=28, 
+CAV(input_file=f'{input_file}', TCB=10, t_A=28, 
     output=results_dir, save_output=True)
 
 # Runs a demonstration of the Boscheri 2012 et. al Modified Energy Cascade
-BOS(input_file=f'{dir}/input_file.csv', TCB=10, t_A=28, 
+BOS(input_file=f'{input_file}', TCB=10, t_A=28, 
     output=results_dir, save_output=True)
 
 # Runs a demonstration of the Amitrano 2020 et. al Modified Energy Cascade
-AMI(input_file=f'{dir}/input_file.csv', TCB=10, t_A=28, 
+AMI(input_file=f'{input_file}', TCB=10, t_A=28, 
     output=results_dir, save_output=True)
 
 # Runs a demonstration of the Volk 1995 et. al Energy Cascade
-EC(input_file=f'{dir}/input_file.csv', TCB=10, t_A=28, 
+EC(input_file=f'{input_file}', TCB=10, t_A=28, 
    output=results_dir, save_output=True)
